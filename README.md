@@ -1,10 +1,9 @@
 <!-- START readme-head.md -->
 # Server
 
-**WARNING! THIS PROJECT IS STILL IN DEVELOPEMENT!** At the moment, it lacks most of it functions and is unusable.<!-- END readme-head.md -->
+**WARNING! THIS PROJECT IS STILL IN DEVELOPEMENT!** At the moment, it lacks most of it functions and is unusable.<!-- END readme-head.md -->  
 ![modulestage](https://img.shields.io/badge/module%20stage-developement-red)
-![moduleversion](https://img.shields.io/badge/version-0.0.1-red)
-<!-- START readme-shields.md -->
+![moduleversion](https://img.shields.io/badge/version-0.0.1-red)<!-- START readme-shields.md -->
 [![license](https://img.shields.io/github/license/CraftyServerMC/Server)](https://github.com/CraftyServerMC/Server/blob/main/LICENSE)
 [![issues](https://img.shields.io/github/issues/CraftyServerMC/Server)](https://github.com/CraftyServerMC/Server/issues)<br>
 [![contributors](https://img.shields.io/github/contributors/CraftyServerMC/Server)](https://github.com/CraftyServerMC/Server/graphs/contributors)
@@ -57,7 +56,8 @@ Add the following entries to your pom.xml:
     </snapshots>
   </repository>
 </repositories>
-```<!-- END readme-maven-instructions-repo.md -->
+```
+<!-- END readme-maven-instructions-repo.md -->
 
 2. Include artifact:
 
