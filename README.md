@@ -57,6 +57,7 @@ Add the following entries to your pom.xml:
   </repository>
 </repositories>
 ```
+
 <!-- END readme-maven-instructions-repo.md -->
 
 2. Include artifact:
