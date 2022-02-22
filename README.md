@@ -36,9 +36,9 @@ Once we hit a usable state in developement, there will be some form of installer
 This module allows clients to connect with the server, parses packages from them and sends packages to them.
 
 #### This module does the following:
- - Accept connections, recieve, parse and send packages to and from Minecraft Clients
- - Store and access parameters for different client connections
- - Provide data type parser for Minecraft protocol
+ - Accept connections, recieve, parse and send packages to and from Minecraft Clients *(Misses some features)*
+ - Store and access parameters for different client connections *(Not started)*
+ - Provide data type parser for Minecraft protocol *(VarInt and VarLong are done, others not started)*
 
 #### Why is it its own module?
 This Server only recieves and parses packages for them to have a length, a data field an an ID. It does not process them further in case a self-creted protocol should be processed.

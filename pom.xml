@@ -70,12 +70,4 @@
 			</snapshots>
 		</repository>
 	</repositories>
-	<dependencies>
-		<dependency>
-			<groupId>org.craftyserver</groupId>
-			<artifactId>craftyserver</artifactId> <!-- Name of the module -->
-			<version>0.0.1-SNAPSHOT</version> <!-- Version of the module -->
-			<scope>provided</scope>
-		</dependency>
-	</dependencies>
 </project>
