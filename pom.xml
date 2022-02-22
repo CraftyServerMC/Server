@@ -70,4 +70,12 @@
 			</snapshots>
 		</repository>
 	</repositories>
+	<dependencies>
+		<dependency>
+			<groupId>org.craftyserver</groupId>
+			<artifactId>craftyserver</artifactId>
+			<version>0.0.1-LIBONLY-SNAPSHOT</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 </project>
