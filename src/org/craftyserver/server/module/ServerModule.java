@@ -92,7 +92,10 @@ public class ServerModule extends Module {
 	public static Server getServer() {
 		return SERVER;
 	}
-
+	
+	/**
+	 * Disable the {@link ServerModule}. Stop the main {@link Server}.
+	 */
 	@Override
 	public void onDisable() {
 		Log.log("Stopping Server...");
