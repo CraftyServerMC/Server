@@ -73,6 +73,7 @@ public class ServerModule extends Module {
 		// Start Server
 		Log.log("Starting Server on port " + CraftyServer.getConfigFile().get("Server").get("serverport").getInt() + "...");
 		getServer().start(CraftyServer.getConfigFile().get("Server").get("serverport").getInt());
+		Log.log("Ready to accept connections!");
 	}
 	
 	/**
